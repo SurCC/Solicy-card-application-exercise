@@ -1,0 +1,28 @@
+.header {
+  height: 100px;
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  border-bottom: 2px solid black;
+}
+
+.button {
+  height: 50px;
+  width: 100px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border: 2px solid #2c276f;
+  border-radius: 5px;
+  padding-bottom: 2px;
+}
+
+.button:hover {
+  color: #ffffff;
+  background-color: #0100fd;
+  transition: 0.9s;
+}
